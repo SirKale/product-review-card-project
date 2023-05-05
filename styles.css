@@ -17,6 +17,7 @@ main{
     transition: 0.3s;
     width: 40%;
     border-radius: 8px 8px 8px 8px;
+    margin: 0 auto;
 }
 
 img{
@@ -39,20 +40,22 @@ span{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: grey;
+    text-align: flex;
 }
 
 .discountprice{
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', sans-serif;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: start;
 }
 
 .regularprice{
     color: grey;
     font-family: 'Fraunces', sans-serif;
     font-weight: 200;
-    position: static;
+    position: fixed;
     text-decoration: line-through;
 }
 
